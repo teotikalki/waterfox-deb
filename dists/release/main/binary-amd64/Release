@@ -1,0 +1,5 @@
+Origin: . release
+Label: . release
+Archive: release
+Architecture: amd64
+Component: main
