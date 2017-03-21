@@ -1,6 +1,32 @@
 Package: waterfox
 Priority: optional
 Section: web
+Installed-Size: 126340
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Version: 52.0.1.1
+Provides: gnome-www-browser, www-browser
+Depends: lsb-release, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-glib-1-2 (>= 0.78), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.4), libgtk2.0-0 (>= 2.14), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrender1, libxt6
+Pre-Depends: apt-transport-https
+Recommends: libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk4, waterfox-kde
+Suggests: fonts-lyx
+Filename: pool/main/w/waterfox/waterfox_52.0.1.1_amd64.deb
+Size: 50142266
+MD5sum: c9325fd7b2b383dc7c05be3d7784d896
+SHA1: 323a29ba6c60bf73292ff9a31c366cfd1acef2c4
+SHA256: 4f1e4ad388a02d2bcaaf9dcc197fea63c9ef2b93705311dba7521a22d39320b0
+SHA512: 79a1e00d877fe901a2dfbab4ae63edfdd3fb9f13a8f8eaf4095c139159fd6f8b48707d4216cb300bfa8d8cc3535f0b80c2457820b92776eb91723e8d16310a7b
+Description: The Lightning Fast Browser
+ Waterfox focuses on giving users choice while also helping make the world a better place. Watefox is partners with Ecosia, a search engine that plants trees with its generated revenues. The browser itself is focused on power users, which lets you make the important decisions. There is no plugin whitelist, you can run whichever extensions you like and absolutely no data or telemetry is sent back to Mozilla or the Waterfox project.
+ .
+ Waterfox is powered by Mozilla Firefox source code.
+ .
+ Note: Language packs are available as seperate packages!
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox
+Priority: optional
+Section: web
 Installed-Size: 126347
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
@@ -48,6 +74,30 @@ Description: The Lightning Fast Browser
  Waterfox is powered by Mozilla Firefox source code.
  .
  Note: Language packs are available as seperate packages!
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-kde
+Priority: optional
+Section: web
+Installed-Size: 103
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Provides: gnome-www-browser, www-browser
+Depends: lsb-release, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-glib-1-2 (>= 0.78), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.4), libgtk2.0-0 (>= 2.14), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrender1, libxt6, libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5kiowidgets5 (>= 5.5.0+git20150101.0309+15.04), libkf5notifications5 (>= 4.96.0), libkf5service-bin, libkf5service5 (>= 4.96.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.3.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 5.2), waterfox
+Pre-Depends: apt-transport-https
+Recommends: libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk4
+Suggests: fonts-lyx
+Filename: pool/main/w/waterfox/waterfox-kde_52.0.1.1_amd64.deb
+Size: 26838
+MD5sum: 48c3d3d1510cd35a7ca2509429f62404
+SHA1: ed9117b34e4bd329634677c8dc47953d418017be
+SHA256: 2a9506aca4e6966966d73f1b8c36b2b604f4684da82dd8aeb6e8ef084ad6f363
+SHA512: a51d11f833531847e42ede8ff77166db179f2f8e425090c785aea99b4e46e344039476ecbfc10ae427729b838ca9f9e8706ef68edf08b4eccc114adb5880abfe
+Description: Waterfox package for integration with KDE Plasma
+ Install this package if you'd like Waterfox with KDE file dialogs, file associations, protocol handlers and
+ other KDE Plasma integration features.
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-kde
@@ -105,6 +155,24 @@ Installed-Size: 461
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-af_52.0.1.1_amd64.deb
+Size: 394620
+MD5sum: 9c5bc8572cb7a77c72b67c187780180a
+SHA1: 5461b3553fb15d4a7ed7bb581a3cb5edccea820a
+SHA256: 3d4bafd1e2080a2a35410460adbf5ff088623b4d40674c1fb6b766f3e9122319
+SHA512: 642e7cc39d88911e069f4fda34638d4954484d640155ed05fe88f0c97717b0e84aecab0fcf0d5146f05a8cdc6b9f768e200952daea497d9660c5016625055393
+Description: Afrikaans language pack for Waterfox
+ This package contains Afrikaans translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-af
+Priority: optional
+Section: web
+Installed-Size: 461
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-af_52.0.1_amd64.deb
 Size: 394576
@@ -132,6 +200,24 @@ SHA256: 89527c35d22ac563217d06a1ef5b95f9b506a006deee5248803888421a16a117
 SHA512: a6916386dd263994a01e880df8cf0e1847865e71f6a119ac8317dd037bbac13ea1275f90d00ae10b34380fc2d5e6316bd3042cc251e11d795540418853412207
 Description: Afrikaans language pack for Waterfox
  This package contains Afrikaans translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-an
+Priority: optional
+Section: web
+Installed-Size: 467
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-an_52.0.1.1_amd64.deb
+Size: 401406
+MD5sum: bcad903b660c33f92f3b8b580b389e6e
+SHA1: bdce19542d5044b9c4b21b246e6c8e06cd543dfb
+SHA256: d91a5e58fc230c1d700a8c921a09c77ebd42af61de44d9f8c9d7c801285af5f4
+SHA512: a3f064157b20e06915f0c952cf248ed2101822491649012b3cf38c419fbc20e0c34d4f967707e8ca99eaf8af61c1055fdff40dac415e2a81915e71c1a973625d
+Description: Aragonese language pack for Waterfox
+ This package contains Aragonese translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-an
@@ -177,6 +263,24 @@ Installed-Size: 495
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ar_52.0.1.1_amd64.deb
+Size: 429766
+MD5sum: 89f8b884d1ab511416261f7b78845698
+SHA1: 86a8993ca6b79c03960a5eae43be0b145a17fbe4
+SHA256: f1c864d3d9305fafa2907814b9257fa62ab93492eb0cb579b75da841e4ebe9a4
+SHA512: 9bcdebfcebf1f397f718a4cdb6e792824f1e6d66d6d2fb7451ddd7d0de7e27fa91685c83514d2b651ad0588734d7b6136ffa0d84329dc4aa73515812ee2e0316
+Description: Arabic language pack for Waterfox
+ This package contains Arabic translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ar
+Priority: optional
+Section: web
+Installed-Size: 495
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-ar_52.0.1_amd64.deb
 Size: 429708
@@ -204,6 +308,24 @@ SHA256: e89bfd14cfd2709f612bb618cbfa0f374ecd2b7fd075b9b058078a3c45ac08f5
 SHA512: e80e31425ceb3b9319f96f2cd5956f17ece4a32a02dee191ea81941283602cb9739b918ca0e2bcd5a2f6cef40aa4212fc10e4024a70ad84f2ca4798651f894a4
 Description: Arabic language pack for Waterfox
  This package contains Arabic translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-as
+Priority: optional
+Section: web
+Installed-Size: 508
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-as_52.0.1.1_amd64.deb
+Size: 443404
+MD5sum: 5c3ddf51a072e709532274437eca87e8
+SHA1: 3ae0ef06056c94c0b0645f08dcd20a1bf30457f8
+SHA256: d3bedfd1e16574132e0de1ba785a44c99818f1ce5b27c3295a69d3833c638bd8
+SHA512: 8883a8b89ce538dfbd2dc354813321101b8b15e88bea18c0ecb0a7fc09b796517c439c3a181fe2885fbe75079bfd45eba2d0e7fa6d453ae2fb0fb2b5a4f2cc7e
+Description: Assamese language pack for Waterfox
+ This package contains Assamese translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-as
@@ -249,6 +371,24 @@ Installed-Size: 462
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ast_52.0.1.1_amd64.deb
+Size: 394836
+MD5sum: 42d56ef9c19ccf650e4f1d3e713c7d77
+SHA1: 7593b42716c1d3eb4fe1820925193196611f9710
+SHA256: ff5f0c0769d337122225acf7996f85aa1b2e9e11997ecaa66173f71aebf95493
+SHA512: b885e1e044223abb083615d04e9a2c9ed6bd7d2f9e4c74ed02fe6499e8b0995edbf62a9297af1ada4a3e982b016368fa93068bc200e3d8474963daab7ae3ebbf
+Description: Asturian language pack for Waterfox
+ This package contains Asturian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ast
+Priority: optional
+Section: web
+Installed-Size: 462
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-ast_52.0.1_amd64.deb
 Size: 394776
@@ -276,6 +416,24 @@ SHA256: 0ebf6e5af3bdbd4208f16378defe8fd70d6da72cf9a43e38d0280b1aa2b8fe36
 SHA512: b1d2742ac9bbde321e496b89e83bf90bb4dc6e80f4be31130b2ccef5ffa615e98d11cd8dc45595979684395d2e97a3aa57f142f694c765bf2b35543ad19dc560
 Description: Asturian language pack for Waterfox
  This package contains Asturian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-az
+Priority: optional
+Section: web
+Installed-Size: 478
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-az_52.0.1.1_amd64.deb
+Size: 412302
+MD5sum: f0a70acbcad08fa76199f8183ae688af
+SHA1: 42f79552dd68c1e2f10ff601860506b9f01c17b9
+SHA256: d18cefc4a1e33ba7157b3cdb6c61ed1adc889f732ca907547c5e1515ebd43c0e
+SHA512: 6698e335f21de277cd91230da4e81466001ca42987a9e9e90ca0dd948e7f8fd01351b9d0fba3c7dd8dde61e960ae9212e4cdfc721659f8663fdf96d4c1a3b8ad
+Description: Azerbaijani language pack for Waterfox
+ This package contains Azerbaijani translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-az
@@ -321,6 +479,24 @@ Installed-Size: 507
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-bg_52.0.1.1_amd64.deb
+Size: 442660
+MD5sum: c7e37060dd3eff8cdbf82c83ebddeb17
+SHA1: 5e41525a1dda61199fc79ea40d8b6595d68dc81a
+SHA256: ba8bbdbf0913e9a321cf85eff4b1b67a264cf2219dc9cf813dc31ee7bcb54cbb
+SHA512: 61516dd6cf26b0fed80cbb6bda7163b3236cb957d24f4fb1353c620c99994e1ef768191168d941f0c4a6895366b280c51361e8fa7ba84816b078a285babad492
+Description: Bulgarian language pack for Waterfox
+ This package contains Bulgarian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-bg
+Priority: optional
+Section: web
+Installed-Size: 507
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-bg_52.0.1_amd64.deb
 Size: 442510
@@ -348,6 +524,24 @@ SHA256: c3ac84b6682baef831fdf2099b0a9ba757c9d1450a151d048cb2ed73d8616bcb
 SHA512: 709240bc35c18342ebd26b4a891baa162044079f2bdb04c65d8e7645e0dd0e2e1cd7f4550b72544f1fd85b4ef7ac32f5c51f7c473f4eed6a6f204158bb2f8c16
 Description: Bulgarian language pack for Waterfox
  This package contains Bulgarian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-bn
+Priority: optional
+Section: web
+Installed-Size: 1047
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-bn_52.0.1.1_amd64.deb
+Size: 903262
+MD5sum: 5b61579697310d798571a0fc47d4b2de
+SHA1: 7c11008ae9105ad474b526b8d40355b3107df638
+SHA256: 5d44850096b1d9bb79d186f13c86ab61ad6b48e9228969eca80c5c544abf52db
+SHA512: 7c7c77b8c523c1607446052eeb48382f42ac24f74e545d656c3041dbe2158e509c6b175b7eb4083005fd9b81bf92ec77f235188f124a2eff699744e29c7c567a
+Description: Bengali language pack for Waterfox
+ This package contains Bengali translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-bn
@@ -393,6 +587,24 @@ Installed-Size: 458
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-br_52.0.1.1_amd64.deb
+Size: 391570
+MD5sum: a18c57888d212fb6cceae155194298b1
+SHA1: 86d9d4672b4021b4d1de44b3d6e028fb96cd71da
+SHA256: dadb1677a91d6b30e9ca888ef38b88f591ce9128ad4311056b00b59d1cd639f9
+SHA512: bde306352bfb1ecdfea8f5a827854ee3467c863565387e7ef52f6814731d97c9ccd84158bffa6ad8857ad6e22edd6a1bb166c653aadf689c4b76c9e8649b7e8e
+Description: Breton language pack for Waterfox
+ This package contains Breton translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-br
+Priority: optional
+Section: web
+Installed-Size: 458
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-br_52.0.1_amd64.deb
 Size: 391534
@@ -420,6 +632,24 @@ SHA256: deeea53eff7369864a3ab1b2acd245bdf5415884ae5d2680c2ba093b88bf8c0d
 SHA512: c7a88f7823cff13a6d91a259b94c363d4b8fafe535e48e18a1729e8f0a45786309ec0ff8135978606e02d93baf6b251c18749ef3d0776c380a8586a6cb513df7
 Description: Breton language pack for Waterfox
  This package contains Breton translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-bs
+Priority: optional
+Section: web
+Installed-Size: 464
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-bs_52.0.1.1_amd64.deb
+Size: 398106
+MD5sum: e5d1c170363b85a33f885ed539218b5c
+SHA1: 809be847f7ac0a149d848b6031348708fef42b76
+SHA256: 483232af339716f84df0ebb42be46d28b2ab677c5839de6d7650e450c328e705
+SHA512: 5cdceac9b5bad537a0ec91dfeb64ab88da0871dda1698285c0f352376aedc234e6b9f3f984b10d148dba1e13f6200b6cac0cacbd50ddf192a09463614efc4123
+Description: Bosnian language pack for Waterfox
+ This package contains Bosnian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-bs
@@ -465,6 +695,24 @@ Installed-Size: 465
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ca_52.0.1.1_amd64.deb
+Size: 399222
+MD5sum: ec73a1de323a748f9b7d65dc1af165cf
+SHA1: 187bf84776015d38d16db3b6acfe2703676dd738
+SHA256: a65d8147c9d79004f25a8244c3e6a6d2023f50abd070cbcdb16d07e20e313afb
+SHA512: 49f8dbf2f76f95601dee839eb73f3de4b7f5c94396e374e62174ee3be178aea3c41866bd03dff42cdfef71d8b1d2b55624a6ed789202207b6744b88fccee0271
+Description: Catalan; Valencian language pack for Waterfox
+ This package contains Catalan; Valencian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ca
+Priority: optional
+Section: web
+Installed-Size: 465
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-ca_52.0.1_amd64.deb
 Size: 399178
@@ -492,6 +740,24 @@ SHA256: 38c506214bce10ca0649f39b52b3168cfc3ab9aa804cbff21b4690cc3ccb59f3
 SHA512: 54d33526fa198bf5bc749c4fada7d6fe0412d8999b4637932268257653e877daeb219dc95b13b5a3c8fa1058444a43f5e9197e774956ec7934e94e56aca89590
 Description: Catalan; Valencian language pack for Waterfox
  This package contains Catalan; Valencian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-cak
+Priority: optional
+Section: web
+Installed-Size: 481
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-cak_52.0.1.1_amd64.deb
+Size: 414150
+MD5sum: 397bfb1de4cf727dc4fc2380f0079fb4
+SHA1: 7579317c757773238b012db9fa698ae38a8dce73
+SHA256: 54a278acc996c4b9755d5f43988dbea935f669687416ca0f76c1090bd98de82a
+SHA512: 2bc7920dfbe997eb17e44b21107b10c78420b429bfda268fbf67d94233d39d7804371808c68eb91a328a3f924b33eab62bb9823cad5525c900670d015d880d92
+Description: Kaqchikel language pack for Waterfox
+ This package contains Kaqchikel translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-cak
@@ -537,6 +803,24 @@ Installed-Size: 466
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-cs_52.0.1.1_amd64.deb
+Size: 400358
+MD5sum: 0cca264319b5603b793020a59def7c7a
+SHA1: 644f2dd599a38a38ca59e2b4274a1210251e08ec
+SHA256: ed9271855922b6a5d53ebe10fa425dc8d7040dddf8ce744ba060abd14df00264
+SHA512: b9272e1e51efec2d44008ff98692f8a135f15f042993761c6485c47c2cb1c90f0fe8106009901369c7e912f3fa2e91002828929ae35f7cde92f01a7c81a80dd3
+Description: Czech language pack for Waterfox
+ This package contains Czech translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-cs
+Priority: optional
+Section: web
+Installed-Size: 466
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-cs_52.0.1_amd64.deb
 Size: 400310
@@ -564,6 +848,24 @@ SHA256: 127390a2d7d5206d4cdcc0b7dcbd6ef895d9a92aaffb69936292e938254c9680
 SHA512: b3a8d9e7566f6e2a2eb25593c80cefaedbcfde8a10509c5378d1834fa2f2f435dfa9bf695fe2ec1de708c9819bcfa63ff430e449b45c24fcf6f092318b5128b1
 Description: Czech language pack for Waterfox
  This package contains Czech translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-cy
+Priority: optional
+Section: web
+Installed-Size: 459
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-cy_52.0.1.1_amd64.deb
+Size: 392666
+MD5sum: d2328faf6c5f3ba1384c5a82d40cf052
+SHA1: cab4f185abfa51928ef4f9a01da5cc483a74fc36
+SHA256: f1336a12482d325f6cb28766ba860a9525d986f9ee931e035ba825464bc8aefb
+SHA512: 42a4b274491c177dda840e79435c80e191b305b7be3aef763039380a78b215c7b262c5274dde2d11ef9b619df5a95e06e59a845c245a859669757789cac97b36
+Description: Welsh language pack for Waterfox
+ This package contains Welsh translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-cy
@@ -609,6 +911,24 @@ Installed-Size: 447
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-da_52.0.1.1_amd64.deb
+Size: 380482
+MD5sum: 72503068821215f0164ca0e9db8415c8
+SHA1: b16ac0ec875733acbea0b69f0ba7e987fbc2d45d
+SHA256: 4e738cffa7f3e4c0a38105504f354bb777168877b1d33116fa3781655d6faa80
+SHA512: 31364922e0259bd8c797363c45a792fa666c3aefaef591b0eac2cbf72974f28d48f656a815078819d60429c9772cc1b4dbee790fbcde1eb05509b1aa341e34c3
+Description: Danish language pack for Waterfox
+ This package contains Danish translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-da
+Priority: optional
+Section: web
+Installed-Size: 447
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-da_52.0.1_amd64.deb
 Size: 380442
@@ -636,6 +956,24 @@ SHA256: d89868869f422d32b8b1062a474bc0788b3f26b50667bce165522f4f949eaec1
 SHA512: 8a35f013ad2101e7501dc449fba96a91d20f312aa8be84f6ada0f80f993ab5c2b1521b04051b2dc10044f76eaaf8a7826ceb31510c586dd5205dcf24407b39bc
 Description: Danish language pack for Waterfox
  This package contains Danish translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-de
+Priority: optional
+Section: web
+Installed-Size: 465
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-de_52.0.1.1_amd64.deb
+Size: 398706
+MD5sum: 4f1144ad984105642db8559ce0170b9a
+SHA1: 405eb82ee70ecaec27f6c9efee5ef56d998ef09d
+SHA256: 7f8e0ed516221e31a6f3a5e3650df4377a6f54d40b60b1c375d647eae77110cd
+SHA512: e81692dca124208683b9b1d41c9542996b79eb14000c28cdf95d4aff0ebd099d8b4e8771fd9a159016e193e8272d7b45ed21d4a8e788e1f010437dea3169131e
+Description: German language pack for Waterfox
+ This package contains German translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-de
@@ -681,6 +1019,24 @@ Installed-Size: 536
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-el_52.0.1.1_amd64.deb
+Size: 472138
+MD5sum: e879d1cc173af10dd10b05eeb683b814
+SHA1: 1b9e7fe9092f27fbdb392bb79df0f6b0e9298a2d
+SHA256: 5845a8522d1e1ee4951dd4a1b37b632c4718dee4b806800b9757c50961220636
+SHA512: 98e54cf9bf5db34420feab093a314c761f4f497b5ddf41171168d55b58826b650d5492d292d4e8c4edc4bac99cf6424e15554946f011044113b7cba94d67eeff
+Description: Greek language pack for Waterfox
+ This package contains Greek translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-el
+Priority: optional
+Section: web
+Installed-Size: 536
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-el_52.0.1_amd64.deb
 Size: 472094
@@ -708,6 +1064,24 @@ SHA256: d0616c72e61510a678d771f452a4ae9c1bda178e5e2bea49a91d66c2f7acb31a
 SHA512: bb48127d4932c6b627c2463f3e6f827711f34355e20c15b2143425bfbb2282eaedbeae9c5686baf29655888fd650f59727e3587007bd0580d22acfe669f98791
 Description: Greek language pack for Waterfox
  This package contains Greek translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-en
+Priority: optional
+Section: web
+Installed-Size: 870
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-en_52.0.1.1_amd64.deb
+Size: 637750
+MD5sum: 638ea5ebc6cb73553aad8f991f9c746d
+SHA1: abc043407cc3ea1e8efddb1cf55f14e1a23c30e2
+SHA256: 66c4c6a093340ac2f32c441027052881a67d9d05320a1ebd5bb8eb01d2f8458a
+SHA512: 662e8ea9beb24561e7bf2b0778e6fc5c06b65d602760891276aa9f27b39a58de1e652055abd4090f2530700deddd9a9dcb2cfaf4ac57cb3da2366a4ad8d80bae
+Description: English language pack for Waterfox
+ This package contains English translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-en
@@ -753,6 +1127,24 @@ Installed-Size: 460
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-eo_52.0.1.1_amd64.deb
+Size: 393272
+MD5sum: 59afd371f7ab48e116745185682c8245
+SHA1: 33ff32ee765e021943dfb217d4c8f46fffcf822e
+SHA256: 270647fb484fcfb1ce699dd40878168ec42b55c9e42708bfcba25784a299ef76
+SHA512: 3f141eef3b7cbfc3ef131b313af1778cd1219bd7d9cff5d1aa8ca1b40b5f95c6928385b8052ae2e13751b750353e5c07960845076634a454cb266427fc2be6bc
+Description: Esperanto language pack for Waterfox
+ This package contains Esperanto translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-eo
+Priority: optional
+Section: web
+Installed-Size: 460
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-eo_52.0.1_amd64.deb
 Size: 393224
@@ -780,6 +1172,24 @@ SHA256: a62f6bdd9736ab837a5e456027c2789be14c21521f860788f6f774a73f04748d
 SHA512: a70857e329d29cbf264223e921dc956db0fda677dd9d7ab854957990bd0703e050c8a7fbc4f98da1beacb60db4c4c2dd66302040ba162fc5a73f609753120e2b
 Description: Esperanto language pack for Waterfox
  This package contains Esperanto translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-es
+Priority: optional
+Section: web
+Installed-Size: 1740
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-es_52.0.1.1_amd64.deb
+Size: 1391530
+MD5sum: f3853d7693cbd6ed59d181c6c5621e4a
+SHA1: be3733dad73a5c241183990c7aeee3ca17adb447
+SHA256: 1b50e1f42c62cfde8f1e290d20fb89c8199be936bd5419a6b05d8957a7b03ff1
+SHA512: 6ce3b113525ed3310901c681a8edf36fd01f42279a865423ee26cc3bcdfd3017f28f0e2948682b879d5232a9b0744f05df4fb5635d69bdfb532ceb51daeb6c15
+Description: Spanish; Castilian language pack for Waterfox
+ This package contains Spanish; Castilian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-es
@@ -825,6 +1235,24 @@ Installed-Size: 448
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-et_52.0.1.1_amd64.deb
+Size: 381132
+MD5sum: ea697391e18a26c720fa9e911c6d2317
+SHA1: 0c5a1c51a5f291a6c0cce7aaf5f929d6aa578f77
+SHA256: 5c629f64ce7abc343c6ef0dfaf8bb859c116c79ad526a41057e210a9d783563d
+SHA512: 0ad5b3a5615a91acf88a8599395de9b725dad14ad6dc2614151fb83211423ef7b8ef0dc27a54fc73ed91b6be0f15e9ddc3f582e3d1545e53ac3f6509e48f484f
+Description: Estonian language pack for Waterfox
+ This package contains Estonian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-et
+Priority: optional
+Section: web
+Installed-Size: 448
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-et_52.0.1_amd64.deb
 Size: 381088
@@ -852,6 +1280,24 @@ SHA256: a6c5f31e68fa637cde56cb70ac22e4e4ed836763f07090bbc81ece56ab1d7287
 SHA512: 3a7d98e5ac6e41fc93d5c38f4954dbf3e256dc515ca140467f5fd04f3d005cdddf35a341e0776c1dcb35d9e58c4c0ebd4546c05837ea00705a453e8a6f0de900
 Description: Estonian language pack for Waterfox
  This package contains Estonian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-eu
+Priority: optional
+Section: web
+Installed-Size: 461
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-eu_52.0.1.1_amd64.deb
+Size: 394418
+MD5sum: c5f13474e286d8776250e8cf7622efea
+SHA1: 7efcfc87757df92439fb9feca9008c94a6c0fc1b
+SHA256: d7cbb1fea82d8468d3a127e464aa8b565999182995a8d2d95599c3642dfef8d1
+SHA512: fe50f975c8f49f52cda5ad9f246de3c5dfba71eb33b240f5775a6b85ab75dc3c31a5867c186a9bd6e59a842e4b16c3f509f319af5743ce09b735c160d5359bff
+Description: Basque language pack for Waterfox
+ This package contains Basque translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-eu
@@ -897,6 +1343,24 @@ Installed-Size: 512
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-fa_52.0.1.1_amd64.deb
+Size: 447342
+MD5sum: 29a257c2e147a37241b1a16aa0fa2053
+SHA1: 03383cc3f9c2044d06ec292febbc532a0b739a84
+SHA256: cbbb0250c0e15f9cb8f3ed01e6fdf8d0c8465af6a5363e2864a7d2525a879888
+SHA512: eb9a641dfb6be180f0fe038e701cd419baadb8c305e4c66c7053fe7848a87e3ec47eed3f59b7a99e042dfae88ade50f6c071c8516f42b757e376b0a5568eee79
+Description: Persian language pack for Waterfox
+ This package contains Persian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-fa
+Priority: optional
+Section: web
+Installed-Size: 512
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-fa_52.0.1_amd64.deb
 Size: 447286
@@ -924,6 +1388,24 @@ SHA256: 66c4831ca97e06807b0862e8d33dc473483d0923c59b83ca413c1609eb414477
 SHA512: afd4308a73b02e35a6ee51114e22d0a2fb39ce78f0f9703b1b7994b0e7a60b746e2369e0e10b85b779be7f716178d11c96b283f1c8c7350d77a7d9a79f5cea17
 Description: Persian language pack for Waterfox
  This package contains Persian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-fi
+Priority: optional
+Section: web
+Installed-Size: 453
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-fi_52.0.1.1_amd64.deb
+Size: 386198
+MD5sum: 0e55c4af28612c483379d9f8b3702ae7
+SHA1: ab218590a407930ae918afda0b383c8c9afe1aad
+SHA256: 6faa6fb244f03e67cd356e500b09cec70ce2dd2e3dc622eabbc1235b5093f3cb
+SHA512: 62a8024cc56db56c2133d9522480bb5f95a36a61ed2e041face05d82f8fc25c344bed40ef270ae3e26af70cb46d91e958bfca152bb8fde5f377b2d7226ea74a0
+Description: Finnish language pack for Waterfox
+ This package contains Finnish translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-fi
@@ -969,6 +1451,24 @@ Installed-Size: 472
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-fr_52.0.1.1_amd64.deb
+Size: 405400
+MD5sum: 83b9e80505734911bac464e86e9808de
+SHA1: a6bd20904b4c3889439ab0d6749cc970a6692d08
+SHA256: 086431d57509ff70b813965b6760729b313bac44855307dd994c2e33a4e40252
+SHA512: 8f5712b74ff59dbb6b7429d2edb0217ef25ca22ef7ef9b5b810d1404f34b353b6da6b04b945d832aaf6425a0be0e4b4fdf67f73267defd6eeb51a1780fae3189
+Description: French language pack for Waterfox
+ This package contains French translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-fr
+Priority: optional
+Section: web
+Installed-Size: 472
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-fr_52.0.1_amd64.deb
 Size: 405354
@@ -996,6 +1496,24 @@ SHA256: 5a3a4dfa07f540d659fa8f4908aaf6fa60f112e4e28d38a46f5ab9c378a7642a
 SHA512: 3a6d0d912ca1066c37206b95f402537edb6b383fa2ea026e9097eef152f6d7c54b45656c8c4b26d0bc75d083eaee01b9b63b35084f9b40c16870775337feb24e
 Description: French language pack for Waterfox
  This package contains French translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-fy
+Priority: optional
+Section: web
+Installed-Size: 468
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-fy_52.0.1.1_amd64.deb
+Size: 397304
+MD5sum: e80e8490d0ab3a1fa2246199efedacbe
+SHA1: e5f856bcecc949e3d228a1e570ef695cd7958fad
+SHA256: 0028bce2d6179492fe2fccd8d7416387017b628eb276e80cd0d0b09ee386cd60
+SHA512: fb81f3262ed83e6a9d0d715e308751432273958edf99a5721c0e067de8cf3b763e543041b82b590cb2ff6525ce0b644358ceb619703648a2c242937c56cde3cf
+Description: Western Frisian language pack for Waterfox
+ This package contains Western Frisian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-fy
@@ -1041,6 +1559,24 @@ Installed-Size: 481
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ga_52.0.1.1_amd64.deb
+Size: 411194
+MD5sum: 6bc358274d79048902260070d0e1e775
+SHA1: 0eb312cb50a55190d299e3491432e6fbfaab6042
+SHA256: ee767309fba6fcc7b1e344c8b079b94ecb8b4477d6978f1f5633b73a8149a487
+SHA512: 446fcf179e84952bcbcb338fb411268f35d079d8183c71cebc5e4c394bf9a3c8cb583b8a86b973c1f7036dd984776d03b2cfe2d364dccbbd9e9086cd677df3d3
+Description: Irish (Ireland) language pack for Waterfox
+ This package contains Irish (Ireland) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ga
+Priority: optional
+Section: web
+Installed-Size: 481
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-ga_52.0.1_amd64.deb
 Size: 411154
@@ -1068,6 +1604,24 @@ SHA256: cba6dd7219826e9228d3d299d702bdc8d727628e1d37e001eb154164223aaa6f
 SHA512: 5aab1a57092e19c9e118fdb96bfd24f430725484d2d284164cfdcaa3cf2a07b1dad53eea99431d0f942744d25d0f46a65dba4fafe1cfa476dc5d2bd07a7f4a31
 Description: Irish (Ireland) language pack for Waterfox
  This package contains Irish (Ireland) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-gd
+Priority: optional
+Section: web
+Installed-Size: 469
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-gd_52.0.1.1_amd64.deb
+Size: 402908
+MD5sum: d6fde371343e17b8b89aca62120f3f37
+SHA1: 97024de03f825e7c2f5917cf68f80099fe38b783
+SHA256: d1fd1cd192d41c2a540b7121ed5a20ad99af6f4a3561cafa73e7226e5996675b
+SHA512: dd4b964baff6dddf5c18ea1fddc7fdad1793ba8589c58731863b9a542c0053da9a1a8af15a2155bb81eb9e70406e030afcbca21f7aa1b829d846bf8dae4f8fa7
+Description: Gaelic; Scottish Gaelic language pack for Waterfox
+ This package contains Gaelic; Scottish Gaelic translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-gd
@@ -1113,6 +1667,24 @@ Installed-Size: 470
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-gl_52.0.1.1_amd64.deb
+Size: 403442
+MD5sum: 8143594a183ff77f7a6c96d9a74177bf
+SHA1: b90091dccd0835c84ce75c07790027623bccb66a
+SHA256: 4e4dfdf339b9b0ea5eb9c1736a307237e5739c0c81d0c1a01acabfc59c815a93
+SHA512: 9bc1c5f3fcbef8a3063946c06d1a952741415b21d09d71d44431e32da4c292a02cd8b835d715f227c9ddc4eb60d9a5d871fe7ca2a735ccb4efb8d50b668a54e6
+Description: Galician language pack for Waterfox
+ This package contains Galician translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-gl
+Priority: optional
+Section: web
+Installed-Size: 470
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-gl_52.0.1_amd64.deb
 Size: 403476
@@ -1140,6 +1712,24 @@ SHA256: 4ef082e75c54b2e5c179b9d4e48d89a9666a5184722fb81addb1a3fe4194e0f8
 SHA512: c8b84cc952a35519a47b3e151b3bee69d7d89f7a7c9a6ba434b57b75450525b7246bd385b7558b11a6bfb872d7d85c52e495d26ee408c3d7a5716bdf5d151ed3
 Description: Galician language pack for Waterfox
  This package contains Galician translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-gn
+Priority: optional
+Section: web
+Installed-Size: 479
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-gn_52.0.1.1_amd64.deb
+Size: 412782
+MD5sum: ef66cfb869a005c8069e9243bdca9025
+SHA1: efa16e242edd22b28c50a7e3fb8e571fc97e62e8
+SHA256: b39c9415b0ae671932d90d4d462eed12cb141beb475b76dc99672c3a7d51b92c
+SHA512: 4dcd9497635c07d365f09e5048bb205a84fbc0cce7cc82e8f8a3d8ae4fb50e02ddf2ddc70a04607352f484bc372bbee236730baaa6c7c79cc4d33799e8d0509f
+Description: Guarani language pack for Waterfox
+ This package contains Guarani translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-gn
@@ -1185,6 +1775,24 @@ Installed-Size: 511
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-gu_52.0.1.1_amd64.deb
+Size: 443192
+MD5sum: dc9a3a772de1d5e50778b2c6e22ed726
+SHA1: a682e25e6a32a123bd862e92478e8086884ec74b
+SHA256: eb5eeaea17cf096ec83992943cf112ab36e1182c93aee37f1e16abb4404b34ef
+SHA512: ff3abb44855179413cf763f6a37de5fe6ac1b3537d1fa92ef5565d097cbb59ea74d1e7e0bffe398dc7369c69570da98a00428bcb62a4625317b8bd0f2a8bb258
+Description: Gujarati (India) language pack for Waterfox
+ This package contains Gujarati (India) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-gu
+Priority: optional
+Section: web
+Installed-Size: 511
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-gu_52.0.1_amd64.deb
 Size: 443158
@@ -1212,6 +1820,24 @@ SHA256: 74d958510c0519e611d721fb0989844f599499c74b2db831f145d6e975c22964
 SHA512: bdc31efe17cc3355788294b417995c175acc6311255edfc6f7abfe3058e182ae7e2b0c1c2a5a03c6da6ea48522f1ba1f30ebe61b4701f32ebc47685b666f9454
 Description: Gujarati (India) language pack for Waterfox
  This package contains Gujarati (India) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-he
+Priority: optional
+Section: web
+Installed-Size: 477
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-he_52.0.1.1_amd64.deb
+Size: 412024
+MD5sum: f0b956593edab811737a1bd933d5ae46
+SHA1: c4fb1155a0e12c758eb2e68faeaa9c3f072ae897
+SHA256: be1ccf62aad2f142bf94ac8ec7e32635f68ff9dc242ccfff8ae81c26f85f6f76
+SHA512: 99c79af095b137d2821afd688cccbdfd9be0c3aa90f07efa933f84c23b68eddab3e42f49df1ea42dec9bdc0be077e656d88671f1418256edc022daf9c8a92f27
+Description: Hebrew language pack for Waterfox
+ This package contains Hebrew translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-he
@@ -1257,6 +1883,24 @@ Installed-Size: 526
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-hi_52.0.1.1_amd64.deb
+Size: 458556
+MD5sum: bd05268593f22fe3a886823b51305f26
+SHA1: 8aba2bc83208f3b14932500d190c692df98d0858
+SHA256: f378a44d399d6ae8eb8af4af1278e5fba60ec77697f2c799e1fc733ea10bb90c
+SHA512: 7a2ecca7b085f6db4dc939b15f41378f7982c66c6dc4a84076662ebfc702d4711e969b723d97dfff857d93edf50a6aefab17a572f1017baa3b8f9c15f4746535
+Description: Hindi (India) language pack for Waterfox
+ This package contains Hindi (India) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-hi
+Priority: optional
+Section: web
+Installed-Size: 526
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-hi_52.0.1_amd64.deb
 Size: 458492
@@ -1284,6 +1928,24 @@ SHA256: 2891268ad8cc48c4024d0502085a4ec4a56bc1475e26b8726901a608678249a1
 SHA512: 67cc40bac408577b19a6468b24ca1369c177085f5bde6e2848c893a2b25f8baa74585f59eca22beaf9cea36469da5093361710a40aeb3b7407b89c89998e0b68
 Description: Hindi (India) language pack for Waterfox
  This package contains Hindi (India) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-hr
+Priority: optional
+Section: web
+Installed-Size: 470
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-hr_52.0.1.1_amd64.deb
+Size: 404128
+MD5sum: 6480e3d1a3e2d935730bb6b0df72643e
+SHA1: fce358cf40d39302fe169269aa4d217bca12c794
+SHA256: ac27530d6ac2a602b08ab14b2f6cab3d028692ffeef029c95879c77918a0d89b
+SHA512: 4654cc258949a590a96453e551d7d7e1dce3f3d1025b729b26010de70f58ac90f13dcb20635f50325bc6e3dc5f66b7ec56cd69325ee1e0b37d076a17025ce8b1
+Description: Croatian language pack for Waterfox
+ This package contains Croatian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-hr
@@ -1329,6 +1991,24 @@ Installed-Size: 479
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-hsb_52.0.1.1_amd64.deb
+Size: 412390
+MD5sum: caf961f479fb816f774fa06c33bc9eb5
+SHA1: 3f720bff3b8ad27f4b6dd6b5de9893c015f4c6dc
+SHA256: 4143304aa1d5168b46c9559e112b913ae4a44fca238da7676d58db477bd8fee3
+SHA512: fe88155b0c8de545b2e3d063370df8f86e1fa552553597d4d318682f4cc994002e12a4651d12c229e0f0f4a14cb1ffec339c5878b013f55964ccfcd73670bb35
+Description: Sorbian, Upper language pack for Waterfox
+ This package contains Sorbian, Upper translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-hsb
+Priority: optional
+Section: web
+Installed-Size: 479
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-hsb_52.0.1_amd64.deb
 Size: 412340
@@ -1356,6 +2036,24 @@ SHA256: 675fb5b4d577398e0508d9c82042a1a37b15ff073a5430697f2fc752db686700
 SHA512: 6246dccdfe8202ade371386b12aed0256796b8dfa981c9ef14c7431f78d7b4d4c7f3e837d300ff90c498f56b5d32fc1db8f46eb4db368a3f18a93217dba14aa8
 Description: Sorbian, Upper language pack for Waterfox
  This package contains Sorbian, Upper translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-hu
+Priority: optional
+Section: web
+Installed-Size: 474
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-hu_52.0.1.1_amd64.deb
+Size: 407948
+MD5sum: cbdaa4c254829c702dd10a5c64af7671
+SHA1: 95b0b7db7651fbc92f3829a213699d3239048417
+SHA256: 309f5b7dba2ecb04f424e622b8f7d854d12bdbcccbf8e85721d11a24ca10a6cd
+SHA512: 2589c8b53596ff3cd1b14203bf448951a544d8260a73affcdf90ebf2fc90b8da4ab8498b5edc9b6f72fe9cd1fca0e1f51042d308268e38649020aba2d7e9dea2
+Description: Hungarian language pack for Waterfox
+ This package contains Hungarian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-hu
@@ -1401,6 +2099,24 @@ Installed-Size: 517
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-hy_52.0.1.1_amd64.deb
+Size: 449210
+MD5sum: 7d96a939bcc5a97d31767035b79cfadd
+SHA1: 196cca6b1fb322b62929f03e8913de152c6c534b
+SHA256: 3aec12e8d2b3e01f45705ef2b7cf721b76b77641736fd31fb5fd8b078c79fe4a
+SHA512: 378f754b862fc319ef046448bcc81b34e1ee4cf3db1b8b155609a836a5dfe2e12fd5b0dd0b9c421b9a5dc748bd63efe156abb4a89eaf179addd1ffe0eb9395e2
+Description: Armenian (Armenia) language pack for Waterfox
+ This package contains Armenian (Armenia) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-hy
+Priority: optional
+Section: web
+Installed-Size: 517
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-hy_52.0.1_amd64.deb
 Size: 449162
@@ -1428,6 +2144,24 @@ SHA256: 2d672d9403919253ea6dc4fa43a5dd143e4ec9ab37d7e7639b27081fb103c84b
 SHA512: 3e058266244079b17b33b6de6d6abe23bfc85145edc37ff72e0a7af8eeb420398f45ba440eb51567e798854b23801fd3b30ab56ab4d3467c1c3f1c8b933a837e
 Description: Armenian (Armenia) language pack for Waterfox
  This package contains Armenian (Armenia) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-id
+Priority: optional
+Section: web
+Installed-Size: 449
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-id_52.0.1.1_amd64.deb
+Size: 382472
+MD5sum: 45d4baad180baa72ffa9f0f772013316
+SHA1: ba0f2cf946a3c87bc317d153a8f5f2d984b4b235
+SHA256: 0792818f79dcc4ce7e04aeab6dbcaa4fe73317a5e66b9cc8c42f3fd71a95e46c
+SHA512: 4e2cf133f798ba59ddf9676961ec99f43c73e0e5a66279ac64c3efb20ff9077e9c2319ab4dd130272cb27fb101f7469039b2741ad9de0d8f40de8ebf6b0f1013
+Description: Indonesian language pack for Waterfox
+ This package contains Indonesian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-id
@@ -1473,6 +2207,24 @@ Installed-Size: 465
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-is_52.0.1.1_amd64.deb
+Size: 398900
+MD5sum: fac7570d08b775edee12783e7cccdc1f
+SHA1: a54f8d5152cf3a7aa2e57f03654cf4ff65e813aa
+SHA256: 0de594017c9527d9e882eb07751299549f7f04232615f42f1b96bc7af1a3d934
+SHA512: dbb480feca00cb8ed9b196803431eca063070e990f35c73b4262e030276cd9fdb7158a748ffcba368b00396dda454926408c209def2c6c62ae11311f14dd870d
+Description: Icelandic language pack for Waterfox
+ This package contains Icelandic translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-is
+Priority: optional
+Section: web
+Installed-Size: 465
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-is_52.0.1_amd64.deb
 Size: 398848
@@ -1500,6 +2252,24 @@ SHA256: e196ca9c9bb60b0bbb7c2b82fbffe6fe641015fa392f99a3d5f6758604b6213d
 SHA512: c8079d2f15986f3ecb7203da1a9cec41aa40adaa6fd07dca47dd90e9048b3b3bedbd13fb22de2e9de80e65de180a97f5a400b751185a4f7d4604c5a0199cd402
 Description: Icelandic language pack for Waterfox
  This package contains Icelandic translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-it
+Priority: optional
+Section: web
+Installed-Size: 365
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-it_52.0.1.1_amd64.deb
+Size: 294692
+MD5sum: 2850ed011999064407878e773ee25e52
+SHA1: 1e05c843d601c9b0967193afc53e4b96ab6c7f84
+SHA256: 7e2c2aeffc8cef4beba85f47e5aa918bf692e6dccb0e730149db6c7f6761c7eb
+SHA512: b99209a62a3f65d35640bc5e3949f8d9816cbe96ad0fdc52838cfecc03a1438c9c8f89e576a7f43acf41bb0f3fb4b343fa3429b667364e66eb02f4859e922948
+Description: Italian language pack for Waterfox
+ This package contains Italian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-it
@@ -1545,6 +2315,24 @@ Installed-Size: 509
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ja_52.0.1.1_amd64.deb
+Size: 444404
+MD5sum: ddfad671ac91a57fe40cb4b7e09c32f4
+SHA1: c968857a7374be486d3ef0a2e1cadfa0910ba3b3
+SHA256: a09fbf64c9afa0b9fe33de26db3d569c9f1fbf8a398ac6dd2d6aa18afb2537d5
+SHA512: c048edfe4ffcc0e47ed6547eafb798b979411c768a668bc2caca8ca5fc36ac7538c6d16280ce076e1638a929612b0a07d3badf816dfbdb20041de93b89f40c63
+Description: Japanese language pack for Waterfox
+ This package contains Japanese translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ja
+Priority: optional
+Section: web
+Installed-Size: 509
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-ja_52.0.1_amd64.deb
 Size: 444356
@@ -1572,6 +2360,24 @@ SHA256: 9c96c97f99d470a97d42533ee11409277e44ab78d0be9866d0fab090861f11cf
 SHA512: 7afb278ee8a6d9cd6c7d4cb4a5f94c3b7fb6cf211094adf710253225258b6269eaf00a6304b7f39af49fe281823a10b3ffd31981a89cf5ddd0311b9c95fa4f85
 Description: Japanese language pack for Waterfox
  This package contains Japanese translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-kk
+Priority: optional
+Section: web
+Installed-Size: 516
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-kk_52.0.1.1_amd64.deb
+Size: 451310
+MD5sum: 7081decc7110b31de7c3d373eddce1f1
+SHA1: df8024d1bdba7bb0a632cf2ebb26a7d99273a8c6
+SHA256: 25eaf1fd941e5ed1e8fc03169f5c17d87b005f9ee080612990e9ddc12436d131
+SHA512: 54cee131105d39e1bd03c0bf3d8bceae7fdc0a46d3ef7b18387691913e51943315df2cd04effa225f1bc0b3840e75c559de6f54484d837fecd377a63e3a0b742
+Description: Kazakh language pack for Waterfox
+ This package contains Kazakh translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-kk
@@ -1617,6 +2423,24 @@ Installed-Size: 540
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-km_52.0.1.1_amd64.deb
+Size: 476126
+MD5sum: c7905ed1904c90ce581d03ac650a7900
+SHA1: 4a308e7de53ca5d67c16fd5140a53a1a6e93f084
+SHA256: c15e28fc21a5a86919a4b5dbe3ca3a678f0ad1124454d45282bdbd113f90613a
+SHA512: 8159954deb3e31b7c03f520d13dab3a9b1611df445108483ab84d7cefa54a4ab149f6c30059edaf2124172f87f84b95696801f97f36719425cf2efc9503333e1
+Description: Central Khmer language pack for Waterfox
+ This package contains Central Khmer translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-km
+Priority: optional
+Section: web
+Installed-Size: 540
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-km_52.0.1_amd64.deb
 Size: 476068
@@ -1644,6 +2468,24 @@ SHA256: 42031bb5f5e9c6dde7fdcc87dde51129c4c3cad3aa1a8eb5cea5a84fb4d9469b
 SHA512: 3e82614e22ab835b58ab20257af9a087ec0382baec3f23ad634f6ace044ccdc7e0768b59afc4f42851ee538d4d18ab1815400f5edfd1a954ab31c01341d841b7
 Description: Central Khmer language pack for Waterfox
  This package contains Central Khmer translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-kn
+Priority: optional
+Section: web
+Installed-Size: 538
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-kn_52.0.1.1_amd64.deb
+Size: 474722
+MD5sum: 941e9d948a4e12a233d007f8b5e64aaa
+SHA1: 32aa4fb42a9e2065de7d414c961a1b3aa2548420
+SHA256: 79e52fd055b72bafb16395a9ea5ab3990513e0a473fa19f6d141a86c3b31d3a6
+SHA512: e420838be9dfd8631c789156336577a0eee2fffcff9da105e3d5b83febf0aa6a765796c07a2afdc9243547a302317d46876bddeb64c709374fce9319cc8a76ff
+Description: Kannada language pack for Waterfox
+ This package contains Kannada translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-kn
@@ -1689,6 +2531,24 @@ Installed-Size: 485
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ko_52.0.1.1_amd64.deb
+Size: 419720
+MD5sum: eaebf1973c95692dd1a84684fdfd3b1e
+SHA1: 61d89ef2db8e2e3bc18b7e232cafab30189dcee5
+SHA256: db09299200f67bdeff9eb2361eb98861c4b74b0eb3a3cc1118422689252becbe
+SHA512: 4ff8651445aac6f91e814487a3b8fa73021b18b128456f94649865b21528039675560d1853ff4a5549061693386ce87970c57b9fa8a61ad1bcc081a962c2658d
+Description: Korean language pack for Waterfox
+ This package contains Korean translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ko
+Priority: optional
+Section: web
+Installed-Size: 485
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-ko_52.0.1_amd64.deb
 Size: 419718
@@ -1716,6 +2576,24 @@ SHA256: fa9e4431e6fed81d6e52b3a730d1b8bd9fe05b071d1909abfed889bd47c286c8
 SHA512: c782beaba2a86f581705479a049da2eecd4bb580f5ab4923ef5233e06d0ac239e1f374c5d3f0f1db8160714a471eb44e14cd94ad3fddf35b012f0566d808b682
 Description: Korean language pack for Waterfox
  This package contains Korean translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-lt
+Priority: optional
+Section: web
+Installed-Size: 474
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-lt_52.0.1.1_amd64.deb
+Size: 408140
+MD5sum: 31b7662bc15cc4164ac944d263d8785d
+SHA1: 79a494fdf953bfe796bad9684014c3bfc44a6f03
+SHA256: cc4e584c310c1b00b2d74e84424e3f5c8a4851fa58d063275ab30abcabe815dc
+SHA512: f263d9e0be78af70d9a1027af61434ce3f8ef760e7c80f949bf43332e80bdce1a7a6d619d2498c32998576a2c9497ac65e59eae3f7bc8ec891881ebbb0098081
+Description: Lithuanian language pack for Waterfox
+ This package contains Lithuanian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-lt
@@ -1761,6 +2639,24 @@ Installed-Size: 471
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-lv_52.0.1.1_amd64.deb
+Size: 404832
+MD5sum: c4427070482ffbe645025629a83d8686
+SHA1: 92777174cb824b739b7e9385a1830301514a2e5a
+SHA256: b031bfb18704d8aadbe407c045eeede4b84387992b05788192ba64152a866832
+SHA512: a57e004a28e9945e040777a8b2154014db07b04d8221f64db6b50f514708ba90aa8a83d0d5a1204ca9ec8ed6783070257ee0e1828bdeb0c758389765ae03b0ec
+Description: Latvian language pack for Waterfox
+ This package contains Latvian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-lv
+Priority: optional
+Section: web
+Installed-Size: 471
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-lv_52.0.1_amd64.deb
 Size: 404792
@@ -1788,6 +2684,24 @@ SHA256: 494c0534fa8d4457baa12014c2853c90cf3d75b28828108af274c1274f44dde2
 SHA512: 2a3fa3f56cf553bfda1e5fc911190c6f87dd21a53a3c68057fd0ec26f83e94b906d3ea1367942ede49c61121d688554c64314aa339cf6751e09aed2e6b3aa475
 Description: Latvian language pack for Waterfox
  This package contains Latvian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-mai
+Priority: optional
+Section: web
+Installed-Size: 520
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-mai_52.0.1.1_amd64.deb
+Size: 454838
+MD5sum: 107a4bdb29eefbd59d3fad65d57ccd29
+SHA1: d0782a3118beecc8b02e30239e26a14c16140d1d
+SHA256: 6e7b32c141f3cbfac3dac403587d4d6e5cbddb9e19211ff92c1ddcb26a6d24a0
+SHA512: 11e3cef4d1e464beddf39e3cdda5cf9efad9cc76b97ac3c4abc0372d21d39b12c8146700f0b6474be677d5b2b2ed8b7bae2dc2c4942104386b010fb5a1957f51
+Description: Maithili language pack for Waterfox
+ This package contains Maithili translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-mai
@@ -1833,6 +2747,24 @@ Installed-Size: 518
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-mk_52.0.1.1_amd64.deb
+Size: 452472
+MD5sum: ee3cd5f74261249d929388931c2fe16d
+SHA1: 99fc6f4e9caf48ffac99bb8f9b97058dcea84e02
+SHA256: 812a1382850248bcd6e3b765272241a7cfadbe4210f8e69e018ee584b5a1fe2c
+SHA512: c5a91c178996137545246e1fe6000dc95ce07afdbb520741e4690c72c6dcfc4119bbbfee4ea8ab72c2eb5a21891bf8562ae18daf028b5d08283bd7f376a232c7
+Description: Macedonian language pack for Waterfox
+ This package contains Macedonian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-mk
+Priority: optional
+Section: web
+Installed-Size: 518
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-mk_52.0.1_amd64.deb
 Size: 452432
@@ -1860,6 +2792,24 @@ SHA256: cef096511c56034f5bafd11f146283fcf474e5b1eb64b984e1cea479c0442c47
 SHA512: 706f52d98718b0b4a2b13690269cb521fc098cf69fe1e3b25a3ae2fffe8a52f082cdcb17450f4c3e92c185282b6a04dcd61c42bcd0b719a890e4c21186e35d2f
 Description: Macedonian language pack for Waterfox
  This package contains Macedonian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ml
+Priority: optional
+Section: web
+Installed-Size: 536
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ml_52.0.1.1_amd64.deb
+Size: 472512
+MD5sum: 84721c0c8fed80d60aecb1db1ed06a79
+SHA1: b7ec68d6f127197d663796a0a4389a40e20499cc
+SHA256: c656e7aa71a5b570006d4b8657d423c148032fabd7724d84a095cf31c7fdc5ab
+SHA512: 7bb0ebde3a483ae47603bf15c76ba4901cab3446bd5cb29ca2eb6d22dbdc18163530e2e755b333184cc8d53f144cdd7f5979a8bb278583ebef2862e1ae3d2c26
+Description: Malayalam language pack for Waterfox
+ This package contains Malayalam translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-ml
@@ -1905,6 +2855,24 @@ Installed-Size: 521
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-mr_52.0.1.1_amd64.deb
+Size: 457330
+MD5sum: 01a64bf1cb87352abcf93372a89de848
+SHA1: 5d93d4584c9023f96c7ae52eb779a5c3a6e90991
+SHA256: 6bf5d4bc0aebae6b18aa2768e1a2f95bc625084da44936706984f7eb0e06cccd
+SHA512: 6113dcd85edc2fab8ab03ba34e38b128f39a0014985c1f4ba5b22e709703c5c373b1c09efc209de105923ac0f071d0b36ed4f86e4301f25caa53e0e94e81075d
+Description: Marathi language pack for Waterfox
+ This package contains Marathi translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-mr
+Priority: optional
+Section: web
+Installed-Size: 521
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-mr_52.0.1_amd64.deb
 Size: 457270
@@ -1932,6 +2900,24 @@ SHA256: 9b39444109d63413aa5678f693d9d589cfccdd13bdff62b304bd8e7313f7a046
 SHA512: 1fd399b1f8d17ee16b8b90a3cac556eb4d0f5bc35e5207f4902dd939156e5d00bec787d3d457015d279fd125fda534c20777a1d346a1cf4a056b18761c4f8585
 Description: Marathi language pack for Waterfox
  This package contains Marathi translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ms
+Priority: optional
+Section: web
+Installed-Size: 459
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ms_52.0.1.1_amd64.deb
+Size: 391876
+MD5sum: 7989e04a0f3779cd3773045383a120ee
+SHA1: a94cd433f84132acbaf265d672a337e66a9ae0c7
+SHA256: be6a6e3ea761420f61984eeecd864edd0d4b19c68b0ee992924cd497d0dd5d5a
+SHA512: c5be86b21edafb456a84986151c7b77877b07b757721011ccf1fe4b4e4dbf0e839cefe33c9ac7d44fbfe85bb7752eeb3a0075a1882f92a7a8824cf4bf769c83a
+Description: Malay language pack for Waterfox
+ This package contains Malay translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-ms
@@ -1977,6 +2963,24 @@ Installed-Size: 457
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-nb_52.0.1.1_amd64.deb
+Size: 386840
+MD5sum: 134f908a0acaa86e0feb962cb33cd3ac
+SHA1: 2db51310a4740cb6e8e63456d53c21231f0173eb
+SHA256: 584a45f6faeb9dd0d64555a54b7a4cfd49d36600bd76491e8d15129d06e4c74e
+SHA512: 4c1a3fceb34fb8459600db42a88c07695705141517d7414f26d597ccd3c19c5894035626b2e1aa38a87efc1b02e6a7ded4e5bb1c9a9e7bd9ec74f19745735fc7
+Description: Bokmål, Norwegian; Norwegian Bokmål language pack for Waterfox
+ This package contains Bokmål, Norwegian; Norwegian Bokmål translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-nb
+Priority: optional
+Section: web
+Installed-Size: 457
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-nb_52.0.1_amd64.deb
 Size: 386780
@@ -2004,6 +3008,24 @@ SHA256: bdad3984aef4d81b21ab5bf8982662ddb96c16a7af83c1a4860ea139400e0e74
 SHA512: 7c3ff10096caa29b44796ac6d01876641155090501e34f42fe78812ac332cd0513697577bab3ecd39fb8dc5b749f6183bfc0e33a3aadb7bce20e2c2f4e9b4f39
 Description: Bokmål, Norwegian; Norwegian Bokmål language pack for Waterfox
  This package contains Bokmål, Norwegian; Norwegian Bokmål translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-nl
+Priority: optional
+Section: web
+Installed-Size: 454
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-nl_52.0.1.1_amd64.deb
+Size: 387696
+MD5sum: 9d53c6c29c752a126685097243a77b96
+SHA1: dd9f8872c723d3a4b96152be103429128e3eba50
+SHA256: 16a6c3b2242107fa727aadfde0895e235c8a81fc117a3c79b0a6cf0584e6c784
+SHA512: b19b1ce6d261ed3e254341a551af53a7349956e6e19e4a92446d9d9145304a46f7c2d35790d070f785d31a7a9f5fc4008ac1850cd47009e14246176c7d3545c2
+Description: Dutch; Flemish language pack for Waterfox
+ This package contains Dutch; Flemish translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-nl
@@ -2049,6 +3071,24 @@ Installed-Size: 452
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-nn_52.0.1.1_amd64.deb
+Size: 381358
+MD5sum: 9c4dd848e50306ec1f8142ed964c7288
+SHA1: f772abab956eb012102271f1c67b8210c61bc95e
+SHA256: 47067aeef547e0f66b7a8c131493d8b8b1530d3f7dd9a9be60bfb3dcd4cf5199
+SHA512: 6d7cb7ce4aea6f2ad0bdb6b55730d9bc6ae12e718c9ad62d6ba03c78ac3e3cafca49f39ffb301e5dc87f8d96186aa94b2804d895b0ad02dcac4c37970b3bfff1
+Description: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Waterfox
+ This package contains Norwegian Nynorsk; Nynorsk, Norwegian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-nn
+Priority: optional
+Section: web
+Installed-Size: 452
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-nn_52.0.1_amd64.deb
 Size: 381326
@@ -2076,6 +3116,24 @@ SHA256: 1145707dc824bcbbd4fa56c4c98428dbc5eaec7833f4f88ab155dafddb3dfff4
 SHA512: 3a5d1a6a2be7498948e44173daae4df47cd7a0cbc4ab0b58717f69635acd6d726405f42fcb5238f80e47afacc36c550bbcbd2ea97a2c7aa034d7e37e230ef946
 Description: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Waterfox
  This package contains Norwegian Nynorsk; Nynorsk, Norwegian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-or
+Priority: optional
+Section: web
+Installed-Size: 517
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-or_52.0.1.1_amd64.deb
+Size: 453430
+MD5sum: 2a38d88ce70684f8431cbb1ce2d4a566
+SHA1: cec257a3e58b51bc55b9197fbed32a02166f4c21
+SHA256: fc8d7168e8bd188099740ec634816cdc5e212f91965d032318a35ef9003ef89e
+SHA512: 45548c2f8d729ac03980b3afc2d76ab701302946dade54f9b6c2a307183fc793a9248466c2a184ce9de6e3ff79d71389ff0a7ebd5c5931edcb37c564758da25a
+Description: Oriya language pack for Waterfox
+ This package contains Oriya translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-or
@@ -2121,6 +3179,24 @@ Installed-Size: 497
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-pa_52.0.1.1_amd64.deb
+Size: 429582
+MD5sum: 94a1b15c64c8d2e9fe21a3309386a2cf
+SHA1: 62dee41fea14277f89549ea9287261864b9fb4ab
+SHA256: 9398b9f9f98982f07ddeb172fcb30bc16f94d2e88c4b75efb2b75ab20f307f49
+SHA512: 24cce040989a224acb2291539b5869d6b1c9d32b664a905e236d41f3dbb5a23f2c3719b865c0b124b69e01e08a3d97cfa33f86496b8cdce20e2e90c3b1296692
+Description: Panjabi; Punjabi (India) language pack for Waterfox
+ This package contains Panjabi; Punjabi (India) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-pa
+Priority: optional
+Section: web
+Installed-Size: 497
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-pa_52.0.1_amd64.deb
 Size: 429618
@@ -2148,6 +3224,24 @@ SHA256: b61475f2166bba0fca48b0f5992582982b2c8acf1b58388c8865bd597964bb63
 SHA512: d0762b37e76edd122a676aa019e84c410806042544ba7d2f091c87549892b7418fd77d2af062a12de412dbf380f985a88834b9708114b33c45f9a47330856250
 Description: Panjabi; Punjabi (India) language pack for Waterfox
  This package contains Panjabi; Punjabi (India) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-pl
+Priority: optional
+Section: web
+Installed-Size: 379
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-pl_52.0.1.1_amd64.deb
+Size: 308954
+MD5sum: 34c624dd62e254b7da8846c43e8f343d
+SHA1: c6d7e1f886f802004f9feb75625bc9a74b36afcc
+SHA256: 525bafc286e4ffb3dc2d911731444355d85568f6d1dbbddf0bd5523e1543f131
+SHA512: 2db22254a82efd274be07e3d6e48b4fe9ea43b096f921db1a7bdef978b2662bfbf279a417767a18eaa8a40722746d4e6605f169b67edeeb535130e68588b82df
+Description: Polish language pack for Waterfox
+ This package contains Polish translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-pl
@@ -2193,6 +3287,24 @@ Installed-Size: 908
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-pt_52.0.1.1_amd64.deb
+Size: 758526
+MD5sum: 3807a5fc5775cf7fff57351e42d2186c
+SHA1: a1b91dd8e70ac06210c742a89a4591704226f208
+SHA256: fa019a426081a1de62fbaba9f71c363240ffe335784bf9b575d5266581614e36
+SHA512: d0c8dffac483ddee9f83afaa99d640a7114255ea6dc432b9d6069688a38329ea7e63faea16604ab10a39e6d65a5d0a91228300c1911d8196eb909288c0927a9e
+Description: Portuguese language pack for Waterfox
+ This package contains Portuguese translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-pt
+Priority: optional
+Section: web
+Installed-Size: 908
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-pt_52.0.1_amd64.deb
 Size: 758592
@@ -2220,6 +3332,24 @@ SHA256: ad8c94c252458334c09df4be4781f9e11ad5979ef7becffcccd22ce05adaa87b
 SHA512: ec36b8587988e822a8d0173d7ba7a4ea8c4d0350f0c58024b91e526a0330f8524a86d553c7aa6e04bac1040aa52c90a5311a2d3e02048572af32b758e2554f44
 Description: Portuguese language pack for Waterfox
  This package contains Portuguese translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ro
+Priority: optional
+Section: web
+Installed-Size: 473
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ro_52.0.1.1_amd64.deb
+Size: 407514
+MD5sum: 8ca1a06f7b9c9380b95cb74c8122b1c2
+SHA1: 895f571ab3502e1a0d880b8cadbc4c2ea622d151
+SHA256: c8ed6dbd9511ac09e4e9f63fe389354b819f1fe30072f3d618f43aeb6e0e004e
+SHA512: 9bcce06dc3489a3a874b308aac37edd1f1cf13a83f0df9c6f31e119313c2bb3cae14a64e9a9e4eb5707f9b3ddefa1c90d7db7f1ab2b65ce6be2a04305b40426e
+Description: Romanian language pack for Waterfox
+ This package contains Romanian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-ro
@@ -2265,6 +3395,24 @@ Installed-Size: 418
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ru_52.0.1.1_amd64.deb
+Size: 348930
+MD5sum: f3187327a11ea7015a4488467bac283f
+SHA1: 10c4194e85adcd75596cf7852335b996b1e81123
+SHA256: d988379aef3b2e014ef5d59e5e1bb6ea90cb73b137ae365ac1ccbdd17d9b7fe4
+SHA512: d6006cf04ed7e02a5af243813659476533caae9a5416bc3070fe0e4eae01900f3a7b8226c689394cd37cf035430bf23063410dd0d6fda99b74de84f0d33cf281
+Description: Russian language pack for Waterfox
+ This package contains Russian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ru
+Priority: optional
+Section: web
+Installed-Size: 418
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-ru_52.0.1_amd64.deb
 Size: 348894
@@ -2292,6 +3440,24 @@ SHA256: b4f3c2f57f77f6df97f2937ea62cbf5ffa6dceec861a4d3737636b5a8f1ad835
 SHA512: 0a9fd9e26b7a88d0d3fd7a88be8555cc60c481ae69c45aabded82915f77be616fe8aa036467cc57c7a94c87acc64ebbf14c81d5a41cb56699c575212c3eca8d4
 Description: Russian language pack for Waterfox
  This package contains Russian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-si
+Priority: optional
+Section: web
+Installed-Size: 512
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-si_52.0.1.1_amd64.deb
+Size: 448064
+MD5sum: 67a51600adc51da687f91c75713b55b0
+SHA1: 00b7920025345d4567b520e92458b802586ca0dc
+SHA256: 0d4fe5cf90bb3bef0d128598e9ae8318e1ed339da1c0f39935c0eb652124a0c7
+SHA512: 9dc7bba7e9f094ead5089abffe63e56255fa6626a7d532dab83592923b4dfaf93a326c61e0e15756d4c365fcaf6ae31f896ddfdc91b996f65ee248e135853516
+Description: Sinhala; Sinhalese language pack for Waterfox
+ This package contains Sinhala; Sinhalese translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-si
@@ -2337,6 +3503,24 @@ Installed-Size: 478
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-sk_52.0.1.1_amd64.deb
+Size: 411996
+MD5sum: 765010ea6072f5ebe58ea955f2ce4d76
+SHA1: c78d65e3a4b7dc84f4afe5ff303d09a17ce7433b
+SHA256: c5ddf5f7e5e07ae304ca2562aa6e147f55ed8121f1df8f2b8229c2a62f38b2e4
+SHA512: 890dca7f21856f4ee7ae7ab47e81f1612c8d3415b297b22dd93fbf140792d131f320ad0d040ad8a121b27e66c7370bd453af28f00f1b5e031a8b42f953963f32
+Description: Slovak language pack for Waterfox
+ This package contains Slovak translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-sk
+Priority: optional
+Section: web
+Installed-Size: 478
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-sk_52.0.1_amd64.deb
 Size: 411990
@@ -2364,6 +3548,24 @@ SHA256: b75ebfce077847b1e7178ea240c3d8a3133ce684d11551296a22d7c225945131
 SHA512: 7ca8d246383a34414335c01c7a78a711933b95191411fc06f573517afab7ef6f91f2b6a6791f022ab5a96a96b52b63a824cd8a1b46915b7cf19e5e5051c7e512
 Description: Slovak language pack for Waterfox
  This package contains Slovak translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-sl
+Priority: optional
+Section: web
+Installed-Size: 456
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-sl_52.0.1.1_amd64.deb
+Size: 389688
+MD5sum: d2a60de2fcf42930288da3e754d0ec8b
+SHA1: e0cb18e69a630e6e80e69a88a4bd92ec8c825e45
+SHA256: ec459c30a4844f0b494c3100b846b4360f98421560bf3d1edd8282586aaa21ff
+SHA512: e07e1e1f8ab046abf677900fdcc4b3e90ab15a6fff180c8538a8778787c3df3ab743a4682c49802b1600bbb39e04bba362bd8df805b3dc05c7cf8d14db2179ef
+Description: Slovenian language pack for Waterfox
+ This package contains Slovenian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-sl
@@ -2409,6 +3611,24 @@ Installed-Size: 470
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-sq_52.0.1.1_amd64.deb
+Size: 404432
+MD5sum: d61fa564936e9d713f89ad2d301415f0
+SHA1: 6aa5467a9768f481e1a033ba6aac549851a6e524
+SHA256: 2aedc39dbf729d8bf7b079d49611da5ab489ad22a6b915a294c14d043d3896b5
+SHA512: f5953b8c9ca68d4710be439a4ff6ece9618176c1326d438643ee44c99de599c44b11256c18e9f3575fa3295674060b36c02d4218b186b4e74279e11519af8575
+Description: Albanian language pack for Waterfox
+ This package contains Albanian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-sq
+Priority: optional
+Section: web
+Installed-Size: 470
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-sq_52.0.1_amd64.deb
 Size: 404394
@@ -2436,6 +3656,24 @@ SHA256: dd2ca455580295dfa9c40b9112fc0aa892b0bec624c5daec6de31748bfb018ce
 SHA512: 2ec9652740e1b0a741359d3b506318395bf91c20e617e92024b857cad2ac2652fd993308fdd96e764c3f01f22c1c1c2d7f43e24e61ce05ef59f5d5a9cb053de6
 Description: Albanian language pack for Waterfox
  This package contains Albanian translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-sr
+Priority: optional
+Section: web
+Installed-Size: 484
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-sr_52.0.1.1_amd64.deb
+Size: 418360
+MD5sum: b015bbd04a68a41b53b568c1b888757d
+SHA1: ef4aee37e2ebca1d1134827fe24e69c2b1a0fe38
+SHA256: ebcb84d54d19008486f48c69e80d7a325fab31fa3ae5d9158f89e08693a0bebd
+SHA512: 2662314f073e201ed54b80c3dfd402193b28bb8f8675e367e90a25a58253745848fd099541e780571d61b750b9c12cfd2b91803da72c078ed50ccd834fa36524
+Description: Serbian language pack for Waterfox
+ This package contains Serbian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-sr
@@ -2481,6 +3719,24 @@ Installed-Size: 464
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-sv_52.0.1.1_amd64.deb
+Size: 393796
+MD5sum: 6df705ead310aa76d73f93c4a280d70f
+SHA1: 49f8649e41947ed7c94c0f3f0f9618042709836e
+SHA256: f2cf566515fc22136737f7cf968f1061443496125ddc27a3eca3ebfee59c8ea6
+SHA512: b6c62c88aae24929982e41d223dca8ee53f92134f05a297849b4b5f1ef9efc0ec127390d630228ab69fe75de777abb9ee7a87a3e3c9f170b058336d583dce077
+Description: Swedish (Sweden) language pack for Waterfox
+ This package contains Swedish (Sweden) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-sv
+Priority: optional
+Section: web
+Installed-Size: 464
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-sv_52.0.1_amd64.deb
 Size: 393776
@@ -2508,6 +3764,24 @@ SHA256: c6122b8b3d9704abed986b3b1b3219aa07a62523bc50df7c95df5e1131df331f
 SHA512: fb7791b26ff879b67a785562679b9ef25d23c3f474773e889f56ce3a6aa2c8b2727f30886f7fa5b4dbc495f6ada4be2b4395d612d4326614eab2fcccdf0e4240
 Description: Swedish (Sweden) language pack for Waterfox
  This package contains Swedish (Sweden) translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-ta
+Priority: optional
+Section: web
+Installed-Size: 514
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-ta_52.0.1.1_amd64.deb
+Size: 450628
+MD5sum: ae9c44d268ce9572ffe93e819630f732
+SHA1: 1096a39e1d4eccd94e6a354cc25b196344674ba7
+SHA256: 0850fd058e3eb718ac12b7101d766b7ef9e90e065a71b6718654cfc1ae13b169
+SHA512: 5bcb8b7f2368b8b1618c67e5ec6269b266f318822b712659a9a9d5685c473abf9e6e07fb2b7d59463b5ed7980bef127dca9024acb85c0f7a9c306fe69f60e5e3
+Description: Tamil language pack for Waterfox
+ This package contains Tamil translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-ta
@@ -2553,6 +3827,24 @@ Installed-Size: 533
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-te_52.0.1.1_amd64.deb
+Size: 469742
+MD5sum: 7b168821e3a996290fd7d32e386b1a2a
+SHA1: 73696f34eec82d12d160999a4e18706e64b4e60a
+SHA256: 47e3a38e4b6b40a1c192605163700524ef2f5d2fd9bf71944dcc883b997fd080
+SHA512: f2930f80ab03bbee0afd7cf9731570bd54920164877aa881ce8f08db99a3b190293e0f43b7da2ce8eef007e36dd68758750916b0b0a86f0fe79160d683f8023a
+Description: Telugu language pack for Waterfox
+ This package contains Telugu translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-te
+Priority: optional
+Section: web
+Installed-Size: 533
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-te_52.0.1_amd64.deb
 Size: 469722
@@ -2580,6 +3872,24 @@ SHA256: 9b0291bce0f43a31bb13966700b98d024cc9e6d575116105e99a0e004303ccca
 SHA512: 32907cb5ff5f52a86c7def43390676b4b7e96f6230c0667c306f99f9939acc82e00960f9c35d9edf2e1a26572654af7a7668c4c2dd747085da4634836d1b66e9
 Description: Telugu language pack for Waterfox
  This package contains Telugu translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-th
+Priority: optional
+Section: web
+Installed-Size: 510
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-th_52.0.1.1_amd64.deb
+Size: 445348
+MD5sum: 455f5908a43aec1ba259505787a13863
+SHA1: 800c5085e48297bd7792f2ba72b6dc0450a3a9a8
+SHA256: 84ec909fff40fbd988e7bcd70a0ffbbf7438b592eb91125ae91ab2a629885efd
+SHA512: 07c1846e6d1703c7b1d3390f85b4aff27726d3e67b07ee6535dde9e8508c2442eb039f8696e470db0c4a67480f13dc18f90fb15f7440e53e4400c667bfa0257c
+Description: Thai language pack for Waterfox
+ This package contains Thai translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-th
@@ -2625,6 +3935,24 @@ Installed-Size: 466
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-tr_52.0.1.1_amd64.deb
+Size: 399810
+MD5sum: 0bf57aaf5d3c0ba377e5f570db614094
+SHA1: 9cf4dbb99d6e05a34fed24251b48070404bbbef5
+SHA256: a01e853a1fc7039f390e898e8552f9810b479672c6a94ed70070b51542290fbb
+SHA512: a655f00dee76bb60bcb1b6812a3d7c55dfeaa3db783d7b3e62951d1405eefa3daacd63b05f8771901d5b513f2062e2268fbbbf067ce5dc20e27b8701da3c02cc
+Description: Turkish language pack for Waterfox
+ This package contains Turkish translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-tr
+Priority: optional
+Section: web
+Installed-Size: 466
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-tr_52.0.1_amd64.deb
 Size: 399846
@@ -2652,6 +3980,24 @@ SHA256: b66f00152ae7e945c8c51e63b548725486f5cf1320efef9b1f9ea719af039363
 SHA512: 12af30926d48413d0c22c08e65ceb0f0833b608594b240feed0624c70e609e0985ff561c234b5e4f989ff661e84b928c570f167098798d27077d2a147b119cfb
 Description: Turkish language pack for Waterfox
  This package contains Turkish translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-uk
+Priority: optional
+Section: web
+Installed-Size: 514
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-uk_52.0.1.1_amd64.deb
+Size: 449552
+MD5sum: a2a883da1a0fc98baf1b4b9510d2c9da
+SHA1: 9e1683dcef112ef7b5d55e69b447cae365ff33f9
+SHA256: 9dd9a7cdd4d72ea1644dcb47518250c3d93f9a7888967fdd455e2349a037711c
+SHA512: 1c7a91b802a2db7eaaf09f8e1758ac5b363d4c47a864e99c2969eb73cbfadf6884dc206bebad10f56a4ed498bbcbf10d3ebc0529ccd337deff17489b7d827b8a
+Description: Ukrainian language pack for Waterfox
+ This package contains Ukrainian translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-uk
@@ -2697,6 +4043,24 @@ Installed-Size: 471
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-uz_52.0.1.1_amd64.deb
+Size: 404838
+MD5sum: 1878a0b0ae6d326c2256ac2bdc420977
+SHA1: d326d98c6e151aa562ba62388f1ee0998b211d86
+SHA256: 9660b2ae93a93063b94fc10c825a97cdeb34545586ce5d6cbd34602c97563215
+SHA512: 23784d8f1672cd649267ecfb6536d543c5facf354286615bb280328552b1827b483ab637abe2e991ac71bd49ae0eb1d1d28b2141d2d08052ddc7980c4830d5d3
+Description: Uzbek language pack for Waterfox
+ This package contains Uzbek translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-uz
+Priority: optional
+Section: web
+Installed-Size: 471
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-uz_52.0.1_amd64.deb
 Size: 404808
@@ -2724,6 +4088,24 @@ SHA256: 5970e674a08465b37e7c81eba540dbcad3b8be596fae7bc01ee2466639d401a2
 SHA512: 6bb8f7b88ce21ada095e17b16619de49b1c3be589fe6fd70b0af30d3baa7910b2b6e514fb1df2415a66d6ad0706652348d435af4b2830642c28d27ceee5c559c
 Description: Uzbek language pack for Waterfox
  This package contains Uzbek translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-vi
+Priority: optional
+Section: web
+Installed-Size: 474
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-vi_52.0.1.1_amd64.deb
+Size: 408870
+MD5sum: 1965a75f8084c8530b11fbd557a71eca
+SHA1: f7ca73e01bab94f4e2afd8a6ada07cba6bed5bc2
+SHA256: a09cd7dc3b0339082e01efd110dc8f369d785a7aea346dc9849c5502bc04fd42
+SHA512: b967f6f3dbe1b5928d4884ee59407ac07e3a5ce70386e6cf1a06d91a8f892b680eb018598b73932c3c4aa0c48147b7b206faa56cf7fe31ecfce0d923c34f45cc
+Description: Vietnamese language pack for Waterfox
+ This package contains Vietnamese translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-vi
@@ -2769,6 +4151,24 @@ Installed-Size: 463
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-xh_52.0.1.1_amd64.deb
+Size: 397830
+MD5sum: 66a44cee8285eafedf8d84c00a4c6f52
+SHA1: 46ab2c2fbaba9b8ff4d5f6a3ee298529d88494bb
+SHA256: 54f129145d3bf6626aa41207c7bd6c6a761e5985b22d5709fa19914339d62528
+SHA512: f035c612bad564f196474b8f1478cd636b81330859753a3bf7e59a8e0cc511c8d769c0610bda2369c3e20e73f79206b95c6e4c87ac002e9a25d66b420d5cf202
+Description: Xhosa language pack for Waterfox
+ This package contains Xhosa translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-xh
+Priority: optional
+Section: web
+Installed-Size: 463
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-xh_52.0.1_amd64.deb
 Size: 397766
@@ -2805,6 +4205,24 @@ Installed-Size: 484
 Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
 Architecture: amd64
 Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-zh-hans_52.0.1.1_amd64.deb
+Size: 414256
+MD5sum: 5870a7aea34cae3794cea99ac7a81edc
+SHA1: f493b07f5ebffe3841604c6c704a2f60f91a9b82
+SHA256: 984a05a98410de80c64537a89b796afd1901847e37ac69a250abd2273045022c
+SHA512: e9fbc583e7fbffc6fde08740400d4947da41e4e1ac53dcf240c23cf534d29f45790129c06b5b08ef493ecfd9230383853fd5d7d0889d624e2e412cc3fad14106
+Description: Simplified Chinese language pack for Waterfox
+ This package contains Simplified Chinese translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-zh-hans
+Priority: optional
+Section: web
+Installed-Size: 484
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
 Version: 52.0.1
 Filename: pool/main/w/waterfox/waterfox-locale-zh-hans_52.0.1_amd64.deb
 Size: 414278
@@ -2832,6 +4250,24 @@ SHA256: 3c09c39716730e57b3d8f74ccaad7373ca613038f047507330d43fac359723bb
 SHA512: c5d18751abfdfa545212b1d21c5541578a669e2ce7d5540f054a2492b0f3aa24c34089f5d4fd469db99b3f75f37319d538daf495ebc6f0f69218bd8373da6dab
 Description: Simplified Chinese language pack for Waterfox
  This package contains Simplified Chinese translations for Waterfox
+Homepage: https://www.waterfoxproject.org/
+
+Package: waterfox-locale-zh-hant
+Priority: optional
+Section: web
+Installed-Size: 495
+Maintainer: hawkeye116477 <hawkeye116477@gmail.com>
+Architecture: amd64
+Source: waterfox
+Version: 52.0.1.1
+Filename: pool/main/w/waterfox/waterfox-locale-zh-hant_52.0.1.1_amd64.deb
+Size: 424144
+MD5sum: 4a62e4beea2d156c56328fcc29e198e6
+SHA1: 65bf64889637e8ee63c10dbaf1664a34e8e14a31
+SHA256: fe8d203faf4130b51cae74bd26f27640a6246196a3ddd0480ed600106de6245c
+SHA512: 9ae1a56bfc3da67d1b88cf7a12cb0d6bedb501772cff1ebeb3392c8d14251d52814d91e47e448cb91cdb54cdb23db7bbbfa61338dc3ba85beb8e0fe3778a2243
+Description: Traditional Chinese language pack for Waterfox
+ This package contains Traditional Chinese translations for Waterfox
 Homepage: https://www.waterfoxproject.org/
 
 Package: waterfox-locale-zh-hant
